@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return render_template('hello_world.html', message='Érettségi eredmények |2024|')
+    return render_template('hello_world.html', message='Érettségi eredmények (2024)')
 
 
 @app.route('/akos')
