@@ -7,12 +7,13 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Érettségi eredmények |2024|'
 
-@app.route('/akos')  # Akos
+
+@app.route('/akos')
 def akos(): 
     return 'Ákos'
 
 
-@app.route('/balazs')
+@app.route('/balazs')  # Balázs
 def balazs():
     return 'Balázs'
 
