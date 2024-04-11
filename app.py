@@ -9,13 +9,13 @@ def hello_world():  # put application's code here
 
 
 @app.route('/akos')
-def akos(): 
-    return 'Ákos'
+def akos():
+    return [5, 5, 5, 5, 5]
 
 
 @app.route('/balazs')  # Balázs
 def balazs():
-    return 'Balázs'
+    return [4, 5, 4, 5, 4]
 
 
 if __name__ == '__main__':
